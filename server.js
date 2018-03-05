@@ -18,12 +18,46 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 app.get('/article', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article.html'));
+    res.send(createTemplate(article));
 });
+  
 
 app.get('/articleone', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'articleone.html'));
 });
+  var article={
+     title: `Vijay`,
+    
+     heading:  `Vacation Spot`,
+     content:  ` <p>
+            A city-size shrine to the Renaissance, Florence offers frescoes, sculptures, churches, palaces, and other monuments from the richest cultural flowering the world has known. Names from its dazzling historical pastDante, Michelangelo, Galileo, Machiavelliare some of the most resonant of the medieval age.
+            
+        </p>`
+ };
+function createTemplate (data){
+var title=data.title;
+var heading=data.heading;
+var content=data.content;
+var createHtml=`<!doctype html>
+<html>
+  <head>
+      
+      
+      <title>${title}</title>
+  </head>
+  <body>
+    <h1>${heading}</h1>
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/explorer.jpeg">
+    
+    <div class="man">
+        <h2>Florence italy</h2>
+        
+            ${content}
+    </div>
+   </body>
+</html> `; 
+return createHtml;
+}
 
 
 // Do not change port, otherwise your app won't run on IMAD servers

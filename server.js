@@ -25,6 +25,11 @@ app.get('/article', function (req, res) {
 app.get('/profile', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
 });
+ app.get('/articleone', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'articleone.html'));
+}); 
+  
+  
   var article={
      title: `Vijay`,
     

@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: white;
+    background-color:lightblue;
     margin-top: 75px;
 }
 
@@ -33,7 +33,7 @@ h2{
   .hobby{
       text-align: center;
      font-family: bold;
-     color: green; 
+      
   }  
     .college{
        text-align: center;

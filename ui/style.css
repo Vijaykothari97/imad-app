@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color:lightblue;
+    background-color:lightgrey;
     margin-top: 75px;
 }
 
@@ -20,7 +20,7 @@ body {
     height: 200px;
 }
  h1{
-     
+      text-align: center;
      font-size: 200%;
  }
   
@@ -43,9 +43,15 @@ h2{
     
 color: blue;
  }
+.image{
+    text-align: center;
+}
+
+
  button{
      text-transform: uppercase;
-     font-size: 200%;
+     font-size: 100%;
+     width: 100px;
      color: green;
     }   
  script{

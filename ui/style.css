@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: lightgrey;
+    background-color: white;
     margin-top: 75px;
 }
 
@@ -19,16 +19,34 @@ body {
 .img-medium {
     height: 200px;
 }
-.demo1{
-    text-transform: uppercase;
-    color: purple; 
-    }
+ h1{
+     
+     font-size: 200%;
+ }
+  
+h2{
+     text-align: center;
+     font-family: bold;
+}
+
+  
+  .hobby{
+      text-align: center;
+     font-family: bold;
+      
+  }  
+    .college{
+       text-align: center;
+     font-family: bold;
+  }
  button{
      text-transform: uppercase;
-     font-size: 200%;
+     font-size: 150%;
      color: green;
-    }
-    script{
-        font-family: cursive;
-        font-size: 200%;
-    }
+    }   
+ script{
+        font-family: bold;
+        font-size: 100%;
+        color: purple;
+        
+    } 

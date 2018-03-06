@@ -19,4 +19,12 @@ body {
 .img-medium {
     height: 200px;
 }
-
+.demo1{
+    text-transform: uppercase;
+    color: purple; 
+    }
+ button{
+     text-transform: uppercase;
+     font-size: 200%;
+     color: green;
+    }

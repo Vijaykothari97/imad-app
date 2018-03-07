@@ -53,15 +53,14 @@ h2{
      width: 500px;
      
      color: orange;
-    
-}
+    }
 
  button{
      margin: 100 auto;
       text-align: center;
      text-transform: uppercase;
      font-size: 100%;
-     width: 500px;
+     width: 100px;
      color: green;
     }   
  script{

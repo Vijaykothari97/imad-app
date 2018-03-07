@@ -47,6 +47,14 @@ color: blue;
     text-align: center;
 }
 
+.man{
+    width : 200px;
+    font-size: 100%;
+    text-align: left;
+}
+
+
+
 
  button{
      text-transform: uppercase;

@@ -46,25 +46,25 @@
      function myfunction2(){
         document.getElementById("man").innerHTML ="<br/><strong>Email id</strong>"
      }
-   
-       function myfunction3(){
+     function myfunction3(){
        var n1=parseInt(prompt("the first number is" ));
-        
-        var n4=prompt("the operater")
+       var n4=prompt("the operater")
         var n2 =parseInt( prompt("the second number is "));
         var n3;
        if (n4==="+"){
         n3=n1+n2;
        }
        if (n4==="-"){
-       
-        n3=n1-n2;
-           
+      n3=n1-n2;
        }
-         document.getElementById("demo2").innerHTML ="the result is "+n3
+         if (n4==="*"){
+        n3=n1*n2;
+       }
+       if (n4==="%"){
+      n3=n1%n2;
+       }
+          document.getElementById("demo2").innerHTML ="<strong>The result is</strong> "+n3
       }
-   
-   
     </script>
     
     

@@ -62,6 +62,9 @@ h2{
      color: red;
     }
 
+onclick{
+    color: blue;
+}
  button{
      margin: 100 auto;
       text-align: center;

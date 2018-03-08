@@ -21,7 +21,7 @@
     </div>
     <hr>
     
-    <button type=text onclick="myfunction()"  ><strong>Quotes</strong></button>
+    <button type=text onclick="myfunction()"  ><strong>View Quotes</strong></button>
     <p id ="demo1"></p>
    
     <button class="vijay" type=text onclick="myfunction1()"  ><strong>Hide Quotes</strong></button>
@@ -32,7 +32,7 @@
      
      <p><br/></p>
     
-    <button class ="vijay2"  type=text onclick="myfunction3()">Calculator</button>
+    <button class ="vijay2"  type=text onclick="myfunction3()">Press for Calculator</button>
       <p id ="demo2"></p>
     
     
@@ -47,7 +47,9 @@
         document.getElementById("man").innerHTML ="<br/><strong>Email id</strong>"
      }
      function myfunction3(){
-       var n1=parseInt(prompt("the first number is" ));
+       var n1=parseInt(prompt("the first number is" ))
+      
+       
        var n4=prompt("the operater")
         var n2 =parseInt( prompt("the second number is "));
         var n3;
@@ -55,7 +57,7 @@
         n3=n1+n2;
        }
        if (n4==="-"){
-      n3=n1-n2;
+           n3=n1-n2;
        }
          if (n4==="*"){
         n3=n1*n2;

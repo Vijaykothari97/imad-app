@@ -40,7 +40,7 @@ h2{
      font-family: bold;
   }
  .vijay{
-    color: blue;
+    color: black;
  }
 .image{
     text-align: center;
@@ -58,7 +58,7 @@ h2{
     text-transform: uppercase;
      font-size: 100%;
      width: 500px;
-     
+     font-family: bold;
      color: red;
     }
 
@@ -71,9 +71,9 @@ onclick{
      text-transform: uppercase;
      font-size: 100%;
      width: 300px;
-     color: green;
-   background: brown;
-    }   
+     color: black;
+   background: blue;
+  font-family: bold;  }   
  script{
         font-family: bold;
         font-size: 100%;

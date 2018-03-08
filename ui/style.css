@@ -59,7 +59,7 @@ h2{
      font-size: 100%;
      width: 500px;
      font-family: bold;
-     color: red;
+     color: black;
     }
 
 onclick{
@@ -72,7 +72,7 @@ onclick{
      font-size: 100%;
      width: 300px;
      color: black;
-   background: blue;
+   background:lightblue;
   font-family: bold;  }   
  script{
         font-family: bold;

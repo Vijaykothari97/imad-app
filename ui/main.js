@@ -24,7 +24,7 @@ if(request.readystate===DONE){
     
     
      
-    vj2.innerHTML=name.value;
+    vj2.innerHTML=name;
 }
 
 }

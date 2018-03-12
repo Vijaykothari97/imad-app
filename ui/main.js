@@ -3,8 +3,8 @@ console.log('Loaded!');
  element.innerHTML="CAN I SAY";
      
      
-button.onclick=function myStart(){
+button.onclick =function myStart(){
     var element= document.getElementById("hello");
- element.innerHTML="hh";
+ element.innerHTML="holla";
 };
      

@@ -8,7 +8,7 @@ button.onclick = function (){
 vj1.innerHTML="holla";
 };
     
- var submit=  document.getElementById("submit_btn");  
+ var submit =  document.getElementById("submit_btn");  
 submit.onclick=function(){
     
 

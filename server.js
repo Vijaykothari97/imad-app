@@ -22,8 +22,8 @@ app.get('/ui/main.js', function (req, res) {
 });
 
   
-app.get('/name', function (req, res) {
-   var name;
+app.get('/:name', function (req, res) {
+   var name=req.params.name;
    
    res.send(name);
 });

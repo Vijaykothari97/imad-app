@@ -29,11 +29,7 @@ app.get('/submit-name', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
-  app.get('/action.php?uname=heelo&submit=Submit+Query', function (req, res) {
- var name=req.query.uname;
-  res.sendu(name);
-});
-
+  
  
 app.get('/article', function (req, res) {
     res.send(createTemplate(article));

@@ -4,7 +4,7 @@ console.log('Loaded!');
      
      
 button.onclick=function myStart(){
-    var hello = document.getElementById("he");
- hello.innerHTML="CAN I SAY";
+    var vj1= document.getElementById("hello");
+ vj1.innerHTML="CAN I SAY";
 };
      

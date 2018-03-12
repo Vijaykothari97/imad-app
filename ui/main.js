@@ -28,6 +28,6 @@ if(request.status===200){
     };
 var nameInput=document.getElementById("name");
 var name=nameInput.value;
-    request.open('GET', 'http://www.example.org/some.file', true);
+    request.open('GET', 'http://vijaykothari97.imad.hasura-app.io/submit-name/', true);
 request.send(null);
 };

@@ -22,11 +22,11 @@ if(request.readystate===DONE){
    if(request.status===200)
    
    {
-    
+    var ox=name;
     
     
      var boo= document.getElementById("vj2");  
-    vj2.innerHTML=name;
+    vj2.innerHTML=ox;
 }
 
 }

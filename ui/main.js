@@ -20,11 +20,11 @@ if(request.readystate===XMLHttpRequest.DONE){
    if(request.status===200)
    
    {
-    var name='name';
+    var ox='name';
     
     
      var h3= document.getElementById("vj2");  
-    h3.innerHTML="the name is "+name;
+    h3.innerHTML="the name is "+ox;
 }
 
 }

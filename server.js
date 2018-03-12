@@ -19,8 +19,8 @@ app.get('/ui/madi.png', function (req, res) {
 
 
   
-app.get('/:name', function (req, res) {
-   var name=req.params.name;
+app.get('/submit-name', function (req, res) {
+   var name=req.query.name;
    
    res.send(name);
 });

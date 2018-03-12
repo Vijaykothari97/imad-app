@@ -32,6 +32,6 @@ if(request.readystate===DONE){
     };
 var man=document.getElementById("name");
 var name=man.value;
- request.open('GET', 'http://vijaykothari97.imad.hasura-app.io/submit-name/:name', true);
+ request.open('GET', 'http://vijaykothari97.imad.hasura-app.io', true);
 request.send(null);
 };

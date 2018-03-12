@@ -26,7 +26,7 @@ if(request.readystate===DONE){
     
     
      var boo= document.getElementById("vj2");  
-    vj2.innerHTML=ox;
+    vj2.innerHTML="the name is "+ox;
 }
 
 }

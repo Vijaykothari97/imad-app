@@ -14,24 +14,24 @@ submit.onclick = function(){
  var http = new XMLHttpRequest();
  request.onreadystatechange = function(){
     // Process the server response here.
-if(request.readystate===DONE){
+if(request.readystate== XMLHttpRequestDONE){
     
 
    if(request.status===200)
    
    {
-    var ox=name;
+    var name='name';
     
     
      var boo= document.getElementById("vj2");  
-    vj2.innerHTML="the name is "+ox;
+    boo.innerHTML="the name is "+name;
 }
 
 }
         
     };
-var man=document.getElementById("name");
-var name=man;
- request.open('GET',' http://vijaykothari97.imad.hasura-app.io/:name', true);
+var nameInput=document.getElementById("name");
+var name=nameInput.value;
+ request.open('GET',' http://vijaykothari97.imad.hasura-app.io/submit-name?name=' +name, true);
 request.send(null);
 };

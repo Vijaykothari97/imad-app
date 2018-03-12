@@ -11,9 +11,7 @@ vj1.innerHTML="holla";
  var submit =  document.getElementById("submit_btn");  
 submit.onclick = function(){
     
-
-    
-  var http = new XMLHttpRequest();
+ var http = new XMLHttpRequest();
  request.onreadystatechange = function(){
     // Process the server response here.
 if(request.readystate===DONE){

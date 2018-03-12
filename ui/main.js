@@ -23,8 +23,8 @@ if(request.readystate===DONE){
     var name=request.responseText;
     
     
-     var p= document.getElementById("vj2");
-    vj2.innerHTML=name;
+     var boo= document.getElementById("vj2");
+    boo.innerHTML=name;
 }
 
 }

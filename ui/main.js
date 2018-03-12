@@ -21,10 +21,10 @@ if(request.readystate===DONE){
 
    if(request.status===200){
     var name=request.responseText;
-    
+    var m1='';
     
      var boo= document.getElementById("vj2");
-    boo.innerHTML=name;
+    boo.innerHTML=m1;
 }
 
 }
@@ -32,6 +32,6 @@ if(request.readystate===DONE){
     };
 var nameInput=document.getElementById("name");
 var name=nameInput.value;
-    request.open('GET', 'http://vijaykothari97.imad.hasura-app.io/submit-name/:name', true);
+    request.open('GET', 'http://vijaykothari97.imad.hasura-app.io/submit-name?name', true);
 request.send(null);
 };

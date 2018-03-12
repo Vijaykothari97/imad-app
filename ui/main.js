@@ -13,7 +13,7 @@ submit.onclick=function(){
     
 
     
- var http = new XmlHttpRequest();
+ var http = new XMLHttpRequest();
     request.onreadystatechange = function(){
     // Process the server response here.
 if(request.readystate===DONE){

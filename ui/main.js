@@ -23,8 +23,8 @@ if(request.readystate===XMLHttpRequest.DONE){
     var ox='name';
     
     
-     var h3 = document.getElementById("vj2");  
-    h3.innerHTML=ox;
+     var span = document.getElementById("vj2");  
+    span.innerHTML=ox;
 }
 
 }

@@ -14,7 +14,7 @@ submit.onclick = function(){
  var request = new XMLHttpRequest();
  request.onreadystatechange = function(){
     // Process the server response here.
-if(request.readystate== XMLHttpRequest.DONE){
+if(request.readystate===XMLHttpRequest.DONE){
     
 
    if(request.status===200)

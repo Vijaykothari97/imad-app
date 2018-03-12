@@ -8,7 +8,7 @@ button.onclick = function (){
 vj1.innerHTML="holla";
 };
     
-    
+ var submit=  document.getElementById("submit_btn");  
 submit.onclick=function(){
     
 
@@ -20,14 +20,14 @@ if(request.readystate===DONE){
     
 
 if(request.status===200){
-     
-    
+     var p= document.getElementById("vj2");
+    vj2.innerHTML=name;
 }
 }
         
     };
-var name=document.getElementById("MAN");
-
+var nameInput=document.getElementById("name");
+var name=nameInput.value;
     request.open('GET', 'http://www.example.org/some.file', true);
 request.send(null);
 };

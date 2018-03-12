@@ -22,18 +22,18 @@ if(request.readystate===DONE){
    if(request.status===200)
    
    {
-    var ox=name.value;
+    var ox=name;
     
     
      var boo= document.getElementById("vj2");  
-    vj2.innerHTML="the name is "+ox.value;
+    vj2.innerHTML="the name is "+ox;
 }
 
 }
         
     };
 var man=document.getElementById("name");
-var name=man.value;
- request.open('GET', 'vijaykothari97.imad.hasura-app.io/:'+name, true);
+var name=man;
+ request.open('GET', 'vijaykothari97.imad.hasura-app.io/:name', true);
 request.send(null);
 };

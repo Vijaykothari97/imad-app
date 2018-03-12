@@ -30,8 +30,8 @@ app.get('/:name', function (req, res) {
 });
 
   app.get('/action.php?uname=heelo&submit=Submit+Query', function (req, res) {
- var name=req.query.name;
-  res.send(name);
+ var name=req.query.uname;
+  res.sendu(name);
 });
 
  

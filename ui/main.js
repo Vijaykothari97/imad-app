@@ -19,10 +19,14 @@ var http=new XMLHttpRequest();
 if(request.readystate===DONE){
     
 
-if(request.status===200){
+   if(request.status===200){
+    var name=request.responseText;
+    
+    
      var p= document.getElementById("vj2");
     vj2.innerHTML=name;
 }
+
 }
         
     };

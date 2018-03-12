@@ -14,16 +14,18 @@ submit.onclick=function(){
 
     
  var http = new XMLHttpRequest();
-    request.onreadystatechange = function(){
+ request.onreadystatechange = function(){
     // Process the server response here.
 if(request.readystate===DONE){
     
 
-   if(request.status===200){
+   if(request.status===200)
+   
+   {
     
     
     
-     
+     var boo= document.getElementById("vj2");  
     vj2.innerHTML=name;
 }
 
@@ -31,7 +33,7 @@ if(request.readystate===DONE){
         
     };
 var man=document.getElementById("name");
-var name=man.value;
- request.open('GET', 'http://vijaykothari97.imad.hasura-app.io/name', true);
+var name=man;
+ request.open('GET', 'http://vijaykothari97.imad.hasura-app.io/:name', true);
 request.send(null);
 };

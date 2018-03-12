@@ -22,9 +22,9 @@ app.get('/ui/main.js', function (req, res) {
 });
 
   
-app.get('/submit-name/:name', function (req, res) {
+app.get('/submit-name?name-xxxx', function (req, res) {
    
-   var name=req.params.name;
+   var name=req.query.name;
    res.send(name);
 });
   

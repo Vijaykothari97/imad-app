@@ -20,11 +20,11 @@ if(request.readystate===DONE){
     
 
    if(request.status===200){
-    var name='name';
+    
     
     
      var boo= document.getElementById("vj2");
-    boo.innerHTML='name';
+    boo.innerHTML=name.value;
 }
 
 }

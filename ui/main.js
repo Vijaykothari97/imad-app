@@ -1,12 +1,5 @@
 console.log('Loaded!');
- var element = document.getElementById("he");
- element.innerHTML="CAN I SAY";
-     
-      var button= document.getElementById("hello");
-button.onclick = function (){
-   
-vj1.innerHTML="holla";
-};
+
     
  var submit =  document.getElementById("submit_btn");  
 submit.onclick = function(){
@@ -22,8 +15,8 @@ if(request.readystate===XMLHttpRequest.DONE){
    {
     
     
-    var p= document.getElementById("demo");
-    demo.innerHTML=request.responseText;
+    var element= document.getElementById("demo");
+    element.innerHTML=request.responseText;
     
 }
 

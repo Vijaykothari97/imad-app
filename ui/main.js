@@ -23,7 +23,7 @@ if(request.readystate===XMLHttpRequest.DONE){
         
     }
     var ul= document.getElementById("demo");
-   ul.innerHTML=list;
+   ul.innerHTML = list;
     
      }
 

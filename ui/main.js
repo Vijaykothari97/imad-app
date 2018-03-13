@@ -1,7 +1,7 @@
 console.log('Loaded!');
 
  var submit = document.getElementById("submit_btn");
- button.onclick = function(){
+ submit.onclick = function(){
     
  var request = new XMLHttpRequest();
  request.onreadystatechange = function(){

@@ -1,6 +1,6 @@
 console.log('Loaded!');
 
-    
+ 
  var submit =  document.getElementById("submit_btn");  
 submit.onclick = function(){
     
@@ -14,11 +14,11 @@ if(request.readystate===XMLHttpRequest.DONE){
    
    {
     
-    var name = request.responseText;
-
+    
+    
     var element= document.getElementById("demo");
     
-    element.innerHTML=name;
+    element.innerHTML=this. request.responseText;
     
 }
 
@@ -27,6 +27,6 @@ if(request.readystate===XMLHttpRequest.DONE){
     };
 var nameInput=document.getElementById("name");
 var name=nameInput.value;
- request.open('GET',' http://vijaykothari97.imad.hasura-app.io/name?name='+name, true);
+request.open('GET',' http://vijaykothari97.imad.hasura-app.io/name?name='+name, true);
 request.send(null);
 };

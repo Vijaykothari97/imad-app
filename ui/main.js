@@ -23,7 +23,7 @@ if(request.readystate===XMLHttpRequest.DONE){
     
     
     var p= document.getElementById("demo");
-     p.innerHTML=request.responseText;
+    demo.innerHTML=request.responseText;
     
 }
 

@@ -22,7 +22,11 @@ app.get('/ui/madi.png', function (req, res) {
  app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
-
+ 
+ app.get('/name', function (req, res) {
+ var name =req.params.name;
+ res.send(name);
+});
   
  
 app.get('/article', function (req, res) {

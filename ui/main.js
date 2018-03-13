@@ -1,7 +1,7 @@
 console.log('Loaded!');
 
  
- var submit =  document.getElementById("submit_btn");  
+       var submit = document.getElementById("submit_btn");
 submit.onclick = function(){
     
  var request = new XMLHttpRequest();
@@ -22,15 +22,15 @@ if(request.readystate===XMLHttpRequest.DONE){
         
         
     }
-    
-   
+    var p= document.getElementById("demo");
+   p.innerHTML=list;
     
      }
 
   }
         
 };
-var nameInput=document.getElementById("name1");
+var nameInput=document.getElementById("name");
 var name=nameInput.value;
 request.open('GET',' http://vijaykothari97.imad.hasura-app.io/submit-name', true);
 request.send(null);

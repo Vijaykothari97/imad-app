@@ -20,11 +20,11 @@ if(request.readystate===XMLHttpRequest.DONE){
     
     element.innerHTML=this. request.responseText.toString();
     
-}
+     }
 
-}
+  }
         
-    };
+};
 var nameInput=document.getElementById("name1");
 var name=nameInput.value;
 request.open('GET',' http://vijaykothari97.imad.hasura-app.io/submit-name?name='+name, true);

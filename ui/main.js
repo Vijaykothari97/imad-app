@@ -17,14 +17,14 @@ submit.onclick = function(){
 if(request.readystate===XMLHttpRequest.DONE){
     
 
-   if(this.request.status===200 && this.readysate===4)
+   if(request.status===200 )
    
    {
 
     
     
      var element1 = document.getElementById("vj2");  
-    element1.innerHTML=this.responseText;
+    element1.innerHTML=responseText;
 }
 
 }

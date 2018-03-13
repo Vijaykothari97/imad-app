@@ -26,7 +26,7 @@ app.get('/ui/madi.png', function (req, res) {
  
  app.get('/submit-name', function (req, res) {
 
- res.send(submit-name.toString());
+ res.send(name.toString());
 });
   
  

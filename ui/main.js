@@ -15,7 +15,7 @@ if(request.readystate===XMLHttpRequest.DONE){
    {
     
     var name = request.responseText;
-    name=JSON.parse(name);
+
     var element= document.getElementById("demo");
     
     element.innerHTML=name;
@@ -27,6 +27,6 @@ if(request.readystate===XMLHttpRequest.DONE){
     };
 var nameInput=document.getElementById("name");
 var name=nameInput.value;
- request.open('GET',' http://vijaykothari97.imad.hasura-app.io/submit-name?name=' +name, true);
+ request.open('GET',' http://vijaykothari97.imad.hasura-app.io/name', true);
 request.send(null);
 };

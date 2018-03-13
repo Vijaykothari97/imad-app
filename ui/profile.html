@@ -37,6 +37,11 @@
     <button class ="vijay2"  type=text onclick="myfunction3()">Press for Calculator</button>
       <p id ="demo2"></p>
     
+    <input type="text" id ="txt1">
+     <button class ="vijay3"  type="text" onclick="myfunction4()"></button>
+       <p id ="demo3"></p>
+    
+    
     
     <script>
       function myfunction(){
@@ -69,6 +74,37 @@
      
           document.getElementById("demo2").innerHTML ="<strong>The result is</strong> "+n3
       }
+    
+    function myfunction4(){
+        var request = new XMLHttpRequest();
+ request.onreadystatechange = function(){
+    // Process the server response here.
+if(request.readystate===XMLHttpRequest.DONE){
+    
+
+   if(request.status===200 && request.readyState===4 )
+   
+   {
+    
+    
+
+ document.getElementById("demo4").innerHTML=this.responseText;
+    
+}
+
+}
+        
+    };
+var nameInput=document.getElementById("txt1");
+var name=nameInput.value;
+ request.open('GET',' http://vijaykothari97.imad.hasura-app.io/name?name='+name, true);
+request.send(null);
+};
+    }
+    
+    
+    
+    
     </script>
     
     

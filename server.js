@@ -23,6 +23,7 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
  
+ 
  app.get('/submit-name', function (req, res) {
  var name =req.query.name;
  res.send(name.toString());

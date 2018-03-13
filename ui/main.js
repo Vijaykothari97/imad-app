@@ -18,7 +18,7 @@ if(request.readystate===XMLHttpRequest.DONE){
     
     var element= document.getElementById("demo");
     
-    element.innerHTML=this. request.responseText.toString();
+    demo.innerHTML=this. request.responseText.toString();
     
      }
 

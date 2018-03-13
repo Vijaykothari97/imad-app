@@ -24,8 +24,8 @@ if(request.readystate===XMLHttpRequest.DONE){
     var name=responseText;
     
     
-     var element1 = document.getElementById("vj2");  
-    element1.innerHTML=name;
+     var element1 = document.getElementById("demo");  
+    demo.innerHTML=name;
 }
 
 }

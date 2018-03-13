@@ -21,11 +21,11 @@ if(request.readystate===XMLHttpRequest.DONE){
    
    {
     
-    var name=responseText;
+   
     
     
    
-    demo.innerHTML=name;
+    demo.innerHTML=responseText;
 }
 
 }

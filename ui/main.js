@@ -15,7 +15,7 @@ if(request.readystate===XMLHttpRequest.DONE){
    {
     
     var name = request.responseText;
-    
+    name=JSON.parse(name);
     var element= document.getElementById("demo");
     
     element.innerHTML=name;

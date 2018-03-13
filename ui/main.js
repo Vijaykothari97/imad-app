@@ -17,7 +17,7 @@ submit.onclick = function(){
 if(request.readystate===XMLHttpRequest.DONE){
     
 
-   if(request.status===200)
+   if(this.request.status===200)
    
    {
 

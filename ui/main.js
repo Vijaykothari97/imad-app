@@ -22,8 +22,8 @@ if(request.readystate===XMLHttpRequest.DONE){
         
         
     }
-    var p= document.getElementById("demo");
-   p.innerHTML=list;
+    var element= document.getElementById("demo");
+   element.innerHTML=list;
     
      }
 

@@ -20,11 +20,12 @@ if(request.readystate===XMLHttpRequest.DONE){
    if(request.status===200 )
    
    {
-
+    
+    var name=responseText;
     
     
      var element1 = document.getElementById("vj2");  
-    element1.innerHTML=responseText;
+    element1.innerHTML=name;
 }
 
 }

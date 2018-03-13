@@ -14,9 +14,11 @@ if(request.readystate===XMLHttpRequest.DONE){
    
    {
     
+    var name = request.responseText;
     
     var element= document.getElementById("demo");
-    element.innerHTML=request.responseText;
+    
+    element.innerHTML=name;
     
 }
 

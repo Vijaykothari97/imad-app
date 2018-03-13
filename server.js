@@ -22,7 +22,7 @@ app.get('/ui/madi.png', function (req, res) {
 app.get('/submit-name', function (req, res) {
    var name=req.query.name;
    
-   res.send(JSON.strigify(name));
+   res.send(name);
 });
   
  app.get('/ui/main.js', function (req, res) {

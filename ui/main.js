@@ -23,8 +23,8 @@ if(request.readystate===XMLHttpRequest.DONE){
 
     
     
-     var p = document.getElementById("vj2");  
-    p.innerHTML=this.responseText;
+     var element1 = document.getElementById("vj2");  
+    element1.innerHTML=this.responseText;
 }
 
 }

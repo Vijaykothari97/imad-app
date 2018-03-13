@@ -24,7 +24,7 @@ app.get('/ui/madi.png', function (req, res) {
 });
  
  app.get('/name', function (req, res) {
- var name =req.params.name;
+ var name =req.query.name;
  res.send(name);
 });
   

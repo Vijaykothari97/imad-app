@@ -17,13 +17,13 @@ if(request.readystate===XMLHttpRequest.DONE){
      names=JSON.parse(names);
    
    var list='';
-   for(var i=0;i<names.length;i++){
-        list+=names[i];
+   for(var i=0; i < names.length;i++){
+        list+='<li>'+names[i]+'</li>',;
         
         
     }
-    var element= document.getElementById("demo");
-   element.innerHTML=list;
+    var ul= document.getElementById("demo");
+   ul.innerHTML=list;
     
      }
 

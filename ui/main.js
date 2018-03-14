@@ -20,12 +20,12 @@
    
    var list = '';
    for(var i=0 ; i < names.length ; i++) {
-        list+='<li>'+names[i]+'</li>';
+        list+=names[i];
         
         
     }
- var ul=   document.getElementById("demo");
-   ul.innerHTML=list;
+ var p=   document.getElementById("demo");
+   p.innerHTML=list;
     
      }
 

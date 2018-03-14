@@ -1,7 +1,7 @@
-
- var submit =   document.getElementById("submit_btn");
+console.log(loaded);
+ var vijay =   document.getElementById("submit_btn");
  
-  submit.click=function(){
+ vijay.click=function(){
     
  var xhttp = new XMLHttpRequest();
 

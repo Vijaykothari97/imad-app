@@ -1,6 +1,6 @@
 
 
- var vijay = document.getElementById("submit_btn");
+ var vijay = document.getElementById('submit_btn');
  
  vijay.onclick =  function(){
     

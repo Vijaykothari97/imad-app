@@ -58,6 +58,8 @@ a{
      font-family: bold;  
     height: 50px;  }   
 #btn3 {
+     padding-right: 100px;
+    text-align: centre; 
     font-size:60%;
     color: black;
     background: lightblue;

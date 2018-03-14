@@ -69,40 +69,25 @@
        if (n4==="-"){
            n3=n1-n2;
        }
-         if (n4==="*"){
+         if (n4==="*"||n4==="x'){
         n3=n1*n2;
        }
-       if (n4==="%"){
-      n3=n1%n2;
+       if (n4==="/"){
+      n3=n1/n2;
        }
-       
-     
-          document.getElementById("demo2").innerHTML ="<strong>The result is</strong> "+n3
+       document.getElementById("demo2").innerHTML ="<strong>The result is</strong> "+n3
       }
     
     function myfunction4(){
         var xhttp = new XMLHttpRequest();
      xhttp.onreadystatechange = function(){
     // Process the server response here.
-    
-    
-
-   if(this.status===200 && this.readyState===4 )
-   
+ if(this.status===200 && this.readyState===4 )
    {
-    
  var counter = this.responseText;
  document.getElementById("can").innerHTML=counter.toString();
-  function myfunction5(){
-           counter=counter - 1; 
-           document.getElementById("can").innerHTML=counter.toString();
-       }
-   
-    }
-
-
-        
-    };
+  }
+ };
  xhttp.open('GET',' http://vijaykothari97.imad.hasura-app.io/counter', true);
  xhttp.send();
  }

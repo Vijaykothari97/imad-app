@@ -1,4 +1,4 @@
-var button = document.getElementById("submit_btn");
+
  button.onclick = function(){
     
  var xhttp = new XMLHttpRequest();

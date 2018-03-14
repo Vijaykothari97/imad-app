@@ -2,7 +2,7 @@
 
  var vijay =   document.getElementById("submit_btn");
  
- vijay.click=function(){
+ vijay.onclick =  function(){
     
  var xhttp = new XMLHttpRequest();
 

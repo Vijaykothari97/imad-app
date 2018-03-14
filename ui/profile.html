@@ -14,6 +14,8 @@
     
       </div>
       <button type="text"  onclick="myfunction4()">LIKE</button> <span id="can">0</span>
+     <br/>
+      <button type="text"  onclick="myfunction5()">dislike</button>
      <hr>
     <h2>Place: Mumbai</h2> 
     <hr>
@@ -99,6 +101,11 @@
  xhttp.open('GET',' http://vijaykothari97.imad.hasura-app.io/counter', true);
  xhttp.send();
  }
+       
+       function myfunction5(){
+           document.getElementById("can").innerHTML=null
+       }
+       
         </script>
     
     

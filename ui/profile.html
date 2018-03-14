@@ -84,12 +84,12 @@
     if(request.readystate===XMLHttpRequest.DONE){
     
 
-   if(this.request.status===200 && this.request.readyState===4 )
+   if(request.status===200  )
    
    {
     
-    var counter=0;
-    counter=counter + 1;
+    
+  var   counter=request.responseText;
 
  document.getElementById("can").innerHTML=counter.toString();
     

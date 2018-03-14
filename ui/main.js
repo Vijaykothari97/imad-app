@@ -2,7 +2,7 @@ var button = document.getElementById("submit_btn");
  button.onclick = function(){
     
  var xhttp = new XMLHttpRequest();
- request.onreadystatechange = function(){
+ xhttp.onreadystatechange = function(){
     // Process the server response here.
 
     
@@ -10,7 +10,7 @@ var button = document.getElementById("submit_btn");
    if(this.status===200 && this.readyState==4 )
    
    {
-    var names=request.responseText;
+    var names=this.responseText;
      names=JSON.parse(names);
    
    var list = '';

@@ -1,6 +1,6 @@
 
 
- var buttom = document.getElementById('submit_btn');
+ var button = document.getElementById('submit_btn');
  
  button.onclick =  function(){
     

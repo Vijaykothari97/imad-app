@@ -1,8 +1,8 @@
 
 
- var vijay = document.getElementById('submit_btn');
+ var buttom = document.getElementById('submit_btn');
  
- vijay.onclick =  function(){
+ button.onclick =  function(){
     
  var xhttp = new XMLHttpRequest();
 

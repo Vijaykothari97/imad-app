@@ -1,4 +1,4 @@
-console.log(!Loaded);
+
 
  var vijay =   document.getElementById("submit_btn");
  

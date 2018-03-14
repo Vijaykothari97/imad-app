@@ -1,8 +1,10 @@
 
  var submit =   document.getElementById("submit_btn");
- submit.onclick=function(){
+ 
+  submit.onclick=function(){
     
  var xhttp = new XMLHttpRequest();
+
  xhttp.onreadystatechange = function(){
     // Process the server response here.
 
@@ -12,10 +14,11 @@
    
    {
     var names=this.responseText;
+    
      names=JSON.parse(names);
    
    var list = '';
-   for(var i=0; i < names.length;i++){
+   for(var i=0 ; i < names.length ; i++) {
         list+='<li>'+names[i]+'</li>';
         
         
@@ -32,4 +35,4 @@ var nameInput=document.getElementById("name");
 var name=nameInput.value;
 request.open('GET',' http://vijaykothari97.imad.hasura-app.io/submit-name?name='+name, true);
 request.send();
-}
+};

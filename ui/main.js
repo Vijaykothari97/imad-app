@@ -1,7 +1,7 @@
 
  var submit =   document.getElementById("submit_btn");
  
-  submit.onclick=function(){
+  submit.click=function(){
     
  var xhttp = new XMLHttpRequest();
 

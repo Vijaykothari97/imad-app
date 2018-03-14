@@ -9,7 +9,7 @@
       <div class="image">
       <img  src="https://pbs.twimg.com/profile_images/971139497235804160/6KBExrj4_400x400.jpg" width="300" height="300"/>     
       <br/>
-      <button type="text" id="btn1" >LIKE</button>
+      <button type="text" id="btn1" onclick="myfunction4()">LIKE<span id="can"></span></button>
       </div>
      <hr>
     <h2>Place: Mumbai</h2> 
@@ -39,9 +39,7 @@
     <button class ="vijay2"  type=text onclick="myfunction3()">Press for Calculator</button>
       <p id ="demo2"></p>
     
-    <input type="text" id ="txt1">
-     <button class ="vijay3"  type="text" onclick="myfunction4()"></button>
-       <p id ="demo3"></p>
+    
     
     
     
@@ -84,22 +82,22 @@
 if(request.readystate===XMLHttpRequest.DONE){
     
 
-   if(request.status===200 && request.readyState===4 )
+   if(this.request.status===200 && this.request.readyState===4 )
    
    {
     
-    
+    var counter=0;
+    counter=counter + 1;
 
- document.getElementById("demo4").innerHTML=this.responseText;
+ document.getElementById("can").innerHTML=counter.toString();
     
 }
 
 }
         
     };
-var nameInput=document.getElementById("txt1");
-var name=nameInput.value;
- request.open('GET',' http://vijaykothari97.imad.hasura-app.io/name?name='+name, true);
+
+ request.open('GET',' http://vijaykothari97.imad.hasura-app.io/counter', true);
 request.send(null);
 };
     }

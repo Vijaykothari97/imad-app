@@ -15,7 +15,7 @@
       </div>
       <button type="text"  onclick="myfunction4()">LIKE</button> <span id="can">0</span>
      <br/>
-      <button type="text"   onclick="myfunction5()">dislike</button>
+      
      <hr>
     <h2>Place: Mumbai</h2> 
     <hr>
@@ -69,7 +69,7 @@
        if (n4==="-"){
            n3=n1-n2;
        }
-         if (n4==="*"||n4==="x'){
+         if (n4==="*"){
         n3=n1*n2;
        }
        if (n4==="/"){
@@ -84,10 +84,14 @@
     // Process the server response here.
  if(this.status===200 && this.readyState===4 )
    {
+ 
  var counter = this.responseText;
  document.getElementById("can").innerHTML=counter.toString();
   }
- };
+ 
+         
+     }
+ 
  xhttp.open('GET',' http://vijaykothari97.imad.hasura-app.io/counter', true);
  xhttp.send();
  }

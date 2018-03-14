@@ -1,5 +1,6 @@
 
- function myName(){
+ var submit =   document.getElementById("submit_btn");
+ submit.onclick=function(){
     
  var xhttp = new XMLHttpRequest();
  xhttp.onreadystatechange = function(){
@@ -19,8 +20,8 @@
         
         
     }
-    document.getElementById("demo").innerHTML=list;
-   
+ var ul=   document.getElementById("demo");
+   ul.innerHTML=list;
     
      }
 

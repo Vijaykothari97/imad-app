@@ -7,7 +7,7 @@ var submit = document.getElementById("submit_btn");
 
     
 
-   if(this.status===&&this.readyState==4 )
+   if(this.status===200 && this.readyState==4 )
    
    {
     var names=request.responseText;

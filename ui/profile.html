@@ -78,9 +78,15 @@
          if (n4==="*"){
         n3=n1*n2;
        }
-       if (n4==="/"){
+       if (n4==="/"||n4==="÷"){
       n3=n1/n2;
        }
+       if(n4===null){
+           n3=null
+           console.log( "The result is undefined")
+       }
+       
+       
        document.getElementById("demo2").innerHTML ="<strong>The result is</strong> "+n3
       }
     

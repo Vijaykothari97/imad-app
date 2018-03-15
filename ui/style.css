@@ -45,7 +45,7 @@ h2{
 }
 a{
     font-family: bold;
-    color:darkgreen;
+    color:red;
  }
  button{
      margin: 100 auto;
@@ -60,9 +60,10 @@ a{
 #btn3 {
      
      text-align: center;
-    font-size:60%;
+    font-size:80%;
     color: black;
     background: lightblue;
    width: 60px;
    height:20px; 
-}
+
+    }

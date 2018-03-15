@@ -22,6 +22,7 @@ body {
  h1{
      text-align: center;
      font-size: 200%;
+color : darkgreen;
  }
   
 h2{
@@ -45,8 +46,8 @@ h2{
 }
 a{
     font-family: bold;
-    color:darkblue;
-}
+    color:darkgreen;
+ }
  button{
      margin: 100 auto;
      text-align: center;

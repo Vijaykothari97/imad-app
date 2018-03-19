@@ -47,7 +47,16 @@ a{
     font-family: bold;
     color:red;
  }
- 
+ button{
+     margin: 100 auto;
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 150%;
+     width: 1200px;
+     color:black;
+     background: orange;
+     font-family: bold;  
+    height: 50px;  }   
 #btn3 {
      margin-right: 50px;
      text-align: center;

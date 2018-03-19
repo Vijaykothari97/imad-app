@@ -61,7 +61,7 @@ h2{
     height: 50px;  }   
  
  .w3-center {
-    margin-right: 500px;
+    margin: 100 auto;
     text-align: center;
     font-size:80%;
     

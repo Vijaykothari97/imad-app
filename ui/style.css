@@ -60,11 +60,11 @@ h2{
      font-family: bold;  
     height: 50px;  }   
  
- .w3-center {
+ .vj3 {
     margin: 100 auto;
     text-align: center;
     font-size:80%;
-    
+    color: lightblue;
     width: 60px;
     height:20px; 
  }

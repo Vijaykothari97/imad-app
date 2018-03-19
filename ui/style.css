@@ -37,15 +37,15 @@ h2{
       font-family: bold;
       
   }  
-    .college{
+ .college{
      text-align: center;
      font-family: bold;
   }
  
-.image{
+ .image{
     text-align: center;
 }
-a{
+ a{
     font-family: bold;
     color:red;
  }
@@ -59,15 +59,15 @@ a{
      background: orange;
      font-family: bold;  
     height: 50px;  }   
-.w3-center {
-     margin: 50 auto;
-     text-align: center;
+ 
+ .w3-center {
+    margin: 50 auto;
+    text-align: center;
     font-size:80%;
     color: black;
-    background: lightblue;
-   width: 60px;
-   height:20px; 
+    width: 60px;
+    height:20px; 
  }
  table{
-     color : grey;
+     color : brown;
  }

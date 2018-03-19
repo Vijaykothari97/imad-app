@@ -58,12 +58,14 @@ a{
      font-family: bold;  
     height: 50px;  }   
 #btn3 {
-     
+     margin-right: 50px;
      text-align: center;
     font-size:80%;
     color: black;
     background: lightblue;
    width: 60px;
    height:20px; 
-
-    }
+ }
+ table{
+     color : grey;
+ }

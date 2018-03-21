@@ -82,9 +82,11 @@
         document.getElementById("man").innerHTML ="<br/><strong>EMAIL ID</strong>"
      }
      function myfunction3(){
-        var n5='something'
+        var n5=parseInt("")
         var n1=parseInt(prompt("ENTER THE FIRST NUMBER",n5))
-       
+       if(n1===""){
+            document.getElementById("demo2").innerHTML ="the result is undefined"
+       }
        
         var n4=prompt("MODE OF OPERATION")
         var n2 =parseInt( prompt("ENTER THE SECOND NUMBER "));

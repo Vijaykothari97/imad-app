@@ -42,6 +42,7 @@
     
     </div>
     <hr>
+   
     <div >
     <button class="vijay1" type=text onclick="myfunction()"  ><strong>View Quotes</strong></button>
     <p id ="demo1"><a id ="man1" href="https://www.brainyquote.com/topics/link"></a></p>
@@ -61,7 +62,13 @@
     
      </div>
      
-    
+    <input  type="text" id="name" placeholder="name"  >
+       <input type="button" value="submit" onclick="myfunction5()" id="submit_btn" >
+       
+       
+      <p id="demo">
+         
+            </p>
     
     <script>
       function myfunction(){
@@ -100,8 +107,7 @@
            console.log( "The result is undefined")
        }
        
-       
-       document.getElementById("demo2").innerHTML ="<strong>The result is</strong> "+n3
+        document.getElementById("demo2").innerHTML ="<strong>The result is</strong> "+n3
       }
     
     function myfunction4(){
@@ -122,7 +128,41 @@
  xhttp.send();
  }
        
-     
+     function myfunction5(){
+          var xhttp = new XMLHttpRequest();
+
+ xhttp.onreadystatechange = function(){
+    // Process the server response here.
+
+    
+
+   if(this.status===200 && this.readyState==4 )
+   
+   {
+    var names=this.responseText;
+    
+     names=JSON.parse(names);
+   
+   var list = '';
+   for(var i=0 ; i < names.length ; i++) {
+        list+=names[i];
+        
+        
+    }
+ var p=   document.getElementById("demo");
+   p.innerHTML=list;
+    
+     }
+
+  
+        
+};
+var nameInput=document.getElementById("name");
+var name=nameInput.value;
+xhttp.open('GET',' http://vijaykothari97.imad.hasura-app.io/submit-name?name='+name, true);
+xhttp.send();
+};
+     }
         </script>
     
     

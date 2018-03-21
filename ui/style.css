@@ -66,8 +66,10 @@ h2{
     font-size:80%;
     color: lightblue;
     width: 60px;
-    height:20px; 
+    height:20px;
  }
- table{
-     color : brown;
+ input{
+     font-family: bold;
+     width: 200px;
+     
  }

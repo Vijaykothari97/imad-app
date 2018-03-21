@@ -69,9 +69,9 @@ h2{
     
     width: 90px;
     height:20px;
-  
+  color : lightblue;
      margin-right: 60%;
-      margin-left: 38%;
+      margin-left: 37%;
  }
  input{
      font-family: bold;
@@ -79,6 +79,6 @@ h2{
      
  }
  hr{
-     width:1000px;
+     width:1500px;
      
  }

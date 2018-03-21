@@ -63,7 +63,7 @@
      </div>
       <input type="button" value="Feedback" onclick="myfunction5()" id="submit_btn" >
     <textarea row="4" columns="8" value="Write Something"></textarea>
-        <p id="demo">
+        <p id="Krina">
          
             </p>
     
@@ -143,23 +143,23 @@
    var list = '';
    for(var i=0 ; i < names.length ; i++) {
         list+=names[i];
-        
-        
-    }
- var p=   document.getElementById("demo");
-   p.innerHTML=list;
+         }
+
+    document.getElementById("Krina").innerHTML=list;
+  
     
      }
 
   
         
-};
-var nameInput=document.getElementById("name");
-var name=nameInput.value;
+}
+ var nameInput=document.getElementById("name");
+ var name=nameInput.value;
 xhttp.open('GET',' http://vijaykothari97.imad.hasura-app.io/submit-name?name='+name, true);
 xhttp.send();
-};
-     }
+}
+     
+        
         </script>
     
     

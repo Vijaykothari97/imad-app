@@ -42,7 +42,8 @@
     
     </div>
     <hr>
-   
+    <h1>CLICKS FOR FUN</h1>
+    <br/>    
     <div >
     <button class="vijay1" type=text onclick="myfunction()"  ><strong>View Quotes</strong></button>
     <p id ="demo1"><a id ="man1" href="https://www.brainyquote.com/topics/link"></a></p>
@@ -81,9 +82,14 @@
         document.getElementById("man").innerHTML ="<br/><strong>EMAIL ID</strong>"
      }
      function myfunction3(){
-       var n1=parseInt(prompt("the first number is" ))
-        var n4=prompt("the operater")
-        var n2 =parseInt( prompt("the second number is "));
+        var n1=parseInt(prompt("ENTER THE FIRST NUMBER" ))
+       if(n1== null){
+           
+           console.log( "The result is undefined")
+       }
+       
+        var n4=prompt("MODE OF OPERATION")
+        var n2 =parseInt( prompt("ENTER THE SECOND NUMBER "));
         var n3;
        if (n4==="+"){
         n3=n1+n2;
@@ -91,7 +97,7 @@
        if (n4==="-"){
            n3=n1-n2;
        }
-         if (n4==="*"){
+       if (n4==="*"){
         n3=n1*n2;
        }
        if (n4==="/"){

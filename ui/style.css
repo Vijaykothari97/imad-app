@@ -48,6 +48,8 @@ h2{
  a{
     font-family: bold;
     color:maroon;
+    font-size:40%;
+     
  }
  .vijay1{
      margin: 100 auto;
@@ -68,7 +70,7 @@ h2{
     width: 60px;
     height:20px;
   
-     margin-right: 45%;
+     margin-right: 40%;
       margin-left: 45%;
  }
  input{

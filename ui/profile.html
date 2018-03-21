@@ -59,8 +59,8 @@
      <p><br/></p>
     
     <button class ="vijay1"  type=text onclick="myfunction3()">Press for Calculator</button>
-     <p id="krina1" ></p>
-      <p id ="demo2"></p>
+     <div id="krina1" ></div>
+      
     
      </div>
       <input type="button" value="Feedback" onclick="myfunction5()" id="submit_btn" >
@@ -85,8 +85,9 @@
      function myfunction3(){
         var n5=''
         var n1=parseInt(prompt("ENTER THE FIRST NUMBER",n5))
+       var krina1=document.getElementById("krina1")
        if(n1===""){
-            document.getElementById("krina1").innerHTML ="the result is undefined"
+            krina1.innerHTML ="the result is undefined"
        }
        
        else if(n1){
@@ -110,7 +111,7 @@
        }
       
        
-        document.getElementById("demo2").innerHTML ="<strong>The result is</strong> "+n3
+        krina1.innerHTML ="<strong>The result is</strong> "+n3
        }
        
        

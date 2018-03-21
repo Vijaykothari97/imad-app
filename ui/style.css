@@ -62,12 +62,12 @@ h2{
      font-family: bold;  
     height: 50px;  }   
  
- .vj3 {
-    margin: 100 auto;
+ #can {
+    
     text-align: center;
     font-size:80%;
     
-    width: 90px;
+    width: 40%;
     height:20px;
   color : lightblue;
      margin-right: 60%;

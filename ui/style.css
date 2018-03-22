@@ -35,12 +35,12 @@ h2{
   .hobby{
       text-align: center;
       font-family: bold;
-      
+      color:red ;
   }  
  .college{
      text-align: center;
      font-family: bold;
-  }
+ color:red; }
  
  .image{
     text-align: center;

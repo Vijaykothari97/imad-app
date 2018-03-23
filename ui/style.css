@@ -84,6 +84,7 @@ h2{
 }
  .hide{
      width: 50px;
+    color:orange;
  }
  .show{
       color:black;

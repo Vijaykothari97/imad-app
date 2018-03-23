@@ -86,7 +86,7 @@ h2{
      width: 50px;
      color:orange;
      text-transform: uppercase;
-     font-size: 150%;
+     font-size: 100%;
      height: 50px;
  }
  .show{
@@ -94,7 +94,7 @@ h2{
      background: orange;
      font-family: bold;
      text-align: center;
-     width: 1150px;
+     width: 500px;
      margin: 100 auto;
      height: 50px;
      text-transform: uppercase;

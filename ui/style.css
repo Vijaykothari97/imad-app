@@ -86,7 +86,7 @@ h2{
      width: 50px;
      color:orange;
      text-transform: uppercase;
-     font-size: 100%;
+     font-size: 150%;
      height: 50px;
  }
  .show{
@@ -94,11 +94,11 @@ h2{
      background: orange;
      font-family: bold;
      text-align: center;
-     width: 700px;
+     width: 600px;
      margin: 100 auto;
      height: 50px;
      text-transform: uppercase;
-     font-size: 100%;
+     font-size: 150%;
  }
  textarea{
      width: 250px;

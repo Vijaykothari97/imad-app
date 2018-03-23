@@ -43,7 +43,7 @@
     <div>
       <p><br/></p>
    
-      <button class ="vijay1"  type=text onclick="myfunction2()" ><strong>GO TO GMAIL</strong></button> 
+      <button class="hide" type=text onclick="myfunction6()"  ><strong>X</strong></button>  <button class ="vijay1"  type=text onclick="myfunction2()" ><strong>GO TO GMAIL</strong></button> 
       <br/>
       <a id ="man" href="https://mail.google.com/mail/u/0/"></a>
    
@@ -76,7 +76,9 @@
      function myfunction2(){
         document.getElementById("man").innerHTML = "<br/><strong>GMAIL</strong>"
       }
-    
+     function myfunction6(){
+          document.getElementById("man").innerHTML = null
+     }
      function myfunction3(){
         var n5=''
         var n1=parseInt(prompt("ENTER THE FIRST NUMBER",n5))
@@ -122,7 +124,7 @@
        
       }
      }
-    function myfunction4(){
+     function myfunction4(){
         var xhttp = new XMLHttpRequest();
      xhttp.onreadystatechange = function(){
     // Process the server response here.

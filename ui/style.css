@@ -63,8 +63,7 @@ h2{
     height: 50px;  }   
  
  .vj3 {
-    
-    text-align: center;
+     text-align: center;
     font-size:80%;
     
     width: 40%;
@@ -76,16 +75,14 @@ h2{
  input{
      font-family: bold;
      width: 100px;
-     
- }
+      }
  hr{
      width:1500px;
-     
- 
+      }
+#can{
+    color:lightblue;
+}
+ .hide{
+     width: 10px;
  }
- #can{
- 
- color: lightblue;
- }
- 
  

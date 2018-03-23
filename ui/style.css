@@ -83,7 +83,7 @@ h2{
     color:lightblue;
 }
  .hide{
-     width: 20px;
+     width: 50px;
      color:orange;
      text-transform: uppercase;
      font-size: 150%;
@@ -94,7 +94,7 @@ h2{
      background: orange;
      font-family: bold;
      text-align: center;
-     width: 1000px;
+     width: 1150px;
      margin: 100 auto;
      height: 50px;
      text-transform: uppercase;

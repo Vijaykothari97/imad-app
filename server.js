@@ -23,11 +23,11 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
  
-var names = [];
+ var names = [];
  app.get('/submit-name', function (req, res) {
-var name=req.query.name;
-names.push(name);
- res.send(JSON.stringify(names));
+   var name=req.query.name;
+   names.push(name);
+   res.send(JSON.stringify(names));
 });
 
 
@@ -41,28 +41,24 @@ names.push(name);
 
 
 
- var names = [];
- app.get('/submit-name', function (req, res) {
-var name=req.query.name;
-names.push(name);
- res.send(JSON.stringify(names));
-});
+
   
  
 app.get('/article', function (req, res) {
-    res.send(createTemplate(article));
+   res.send(createTemplate(article));
 });
   
 
 app.get('/profile', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
 });
- app.get('/articleone', function (req, res) {
+
+app.get('/articleone', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'articleone.html'));
 }); 
   
   
-  var article={
+var article={
      title: `Vijay`,
     
      heading:  `Vacation Spot`,

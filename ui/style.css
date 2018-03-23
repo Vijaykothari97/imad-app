@@ -60,17 +60,17 @@ h2{
      color:black;
      background: orange;
      font-family: bold;  
-    height: 50px;  }   
+     height: 50px; 
+     }   
  
  .vj3 {
-     text-align: center;
+    text-align: center;
     font-size:80%;
-    
     width: 40%;
     height:20px;
-  color : lightblue;
-     margin-right: 30%;
-      margin-left: 30%;
+    color : lightblue;
+    margin-right: 30%;
+    margin-left: 30%;
  }
  input{
      font-family: bold;
@@ -84,8 +84,8 @@ h2{
 }
  .hide{
      width: 50px;
-    color:orange;
-  text-transform: uppercase;
+     color:orange;
+     text-transform: uppercase;
      font-size: 150%;
      height: 50px;
  }
@@ -93,10 +93,10 @@ h2{
      color:black;
      background: orange;
      font-family: bold;
-   text-align: center;
-   width: 1000px;
-   margin: 100 auto;
+     text-align: center;
+     width: 1200px;
+     margin: 100 auto;
      height: 50px;
-  text-transform: uppercase;
+     text-transform: uppercase;
      font-size: 150%;
  }

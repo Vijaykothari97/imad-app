@@ -85,6 +85,7 @@ h2{
  .hide{
      margin: 0 auto;
      max-width: 50px;
+     width:50px;
      color:orange;
      text-transform: uppercase;
      font-size: 150%;
@@ -98,8 +99,9 @@ h2{
      font-family: bold;
      text-align: center;
      margin: 0 auto;
+     width:100px;
      max-width: 1000px;
-     margin: 100 auto;
+     
      height: 50px;
      text-transform: uppercase;
      font-size: 150%;

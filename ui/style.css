@@ -83,11 +83,12 @@ h2{
     color:lightblue;
 }
  .hide{
-     width: 25px;
+      margin: 0 auto;
+     width: 50px;
      color:orange;
      text-transform: uppercase;
      font-size: 150%;
-     height: 25px;
+     height: 50px;
  }
  .show{
      color:black;

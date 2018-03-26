@@ -90,8 +90,7 @@ h2{
      text-transform: uppercase;
      font-size: 150%;
      height: 50px;
-     padding-left:20px;
-     padding-right:20px;
+   
      }
  .show{
      color:black;
@@ -105,8 +104,7 @@ h2{
      height: 50px;
      text-transform: uppercase;
      font-size: 150%;
-     padding-left:20px;
-     padding-right:20px;
+    
  }
  textarea{
      width: 250px;

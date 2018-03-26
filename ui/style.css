@@ -108,6 +108,8 @@ h2{
  }
  textarea{
      width: 250px;
+
+     height:50px;
  }
  h3{
  font-size:300%;

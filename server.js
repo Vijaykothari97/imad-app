@@ -39,6 +39,10 @@ app.get('/counter', function (req, res) {
 });
 
 
+app.get('/name', function (req, res) {
+  var name;
+  res.send(name);
+});
 
 var names = [];
 app.get('/submit-name', function (req, res) {

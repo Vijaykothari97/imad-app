@@ -52,8 +52,8 @@ xhttp.send();
    if(this.status===200 && this.readyState==4 )
    
    {
-    var names=this.responseText;
-     names=JSON.parse(names);
+    var name=this.responseText;
+    
    
     var x=['lion'];
      
@@ -62,8 +62,8 @@ xhttp.send();
      }
     
    
- var p=   document.getElementById("demo1");
-   p.innerHTML=this.q;
+ var hy=   document.getElementById("demo1");
+   hy.innerHTML=this.q;
     
      }
 

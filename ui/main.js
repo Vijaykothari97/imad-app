@@ -54,17 +54,17 @@ xhttp.send();
  {
    
    
-    var names=this.responseText;
-    names=JSON.parse(names);
+    var elements=this.responseText;
+    elements=JSON.parse(elements);
    
     var x=['lion','tiger','elephant'];
     
     
    
-   for(var i=0 ; i < names.length ; i++) {
+   for(var i=0 ; i < elements.length ; i++) {
         
         
-   if (names[i] ==="animal"){
+   if (elements[i] ==="animal"){
     var hy =   document.getElementById("demo1");
    hy.innerHTML=x;    
    

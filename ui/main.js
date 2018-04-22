@@ -67,7 +67,8 @@ xhttp.send();
         
    if (elements[i] ==="animal"){
     var hy =   document.getElementById("demo1");
-   hy.innerHTML=x&&m;    
+   hy.innerHTML=x+m;    
+  
    }
     
     if (elements[i] ==="*"){

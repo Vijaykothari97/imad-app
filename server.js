@@ -42,7 +42,7 @@ var names=[];
 app.get('/:name', function (req, res) {
   var name=req.params.name;
  names.push(name);
-  res.sendj(JSON.stringify(name));
+  res.send(JSON.stringify(name));
 });
 
 var names = [];

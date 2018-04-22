@@ -23,8 +23,8 @@
         list+=names[i];
         
    if (names[i] ==="*"){
-    var ayy =   document.getElementById("demo");
-   ayy.innerHTML=null;
+    var f =   document.getElementById("demo");
+   f.innerHTML=null;
    }
   
    }

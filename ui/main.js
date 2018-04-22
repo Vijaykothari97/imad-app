@@ -56,7 +56,7 @@ xhttp.send();
     names=JSON.parse(names);
    
     var x=['lion'];
-     
+     var animal;
     
    
  var hy=   document.getElementById("demo1");

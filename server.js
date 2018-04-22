@@ -23,6 +23,14 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
  
+ var names = [];
+app.get('/search-name', function (req, res) {
+  var name=req.query.name;
+  names.push(name);
+  res.send(JSON.stringify(names));
+});
+ 
+ 
 var names = [];
 app.get('/submit-name', function (req, res) {
    var name=req.query.name;
@@ -38,20 +46,16 @@ app.get('/counter', function (req, res) {
   res.send(counter.toString());
 });
 
-var names=[];
+
+
+
+ 
+ var names=[];
 app.get('/:name', function (req, res) {
   var name=req.params.name;
  names.push(name);
   res.send(JSON.stringify(name));
-});
-
-var names = [];
-app.get('/submit-name', function (req, res) {
-  var name=req.query.name;
-  names.push(name);
-  res.send(JSON.stringify(names));
-});
-  
+}); 
  
 app.get('/article', function (req, res) {
    res.send(createTemplate(article));

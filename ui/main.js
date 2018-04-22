@@ -22,7 +22,7 @@
    for(var i=0 ; i < names.length ; i++) {
         list+=names[i];
         
-         
+   }
          
        
    
@@ -31,9 +31,9 @@
  var p=   document.getElementById("demo");
    p.innerHTML=list;
     
-     }
+   } 
 
-   }
+   
         
 };
 var nameInput=document.getElementById("name");

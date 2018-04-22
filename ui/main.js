@@ -59,7 +59,7 @@ xhttp.send();
    
     var x=['lion',
     'tiger'];
-    
+    var m=['chetah'];
     
    
    for(var i=0 ; i < elements.length ; i++) {
@@ -67,7 +67,7 @@ xhttp.send();
         
    if (elements[i] ==="animal"){
     var hy =   document.getElementById("demo1");
-   hy.innerHTML=x;    
+   hy.innerHTML=x&&m;    
    }
     
     if (elements[i] ==="*"){

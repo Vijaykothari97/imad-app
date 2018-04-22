@@ -66,7 +66,7 @@ xhttp.send();
         
    if (names[i] ==='animal'){
     var hy =   document.getElementById("demo1");
-   hy.innerHTML=names[i].x;    
+   hy.innerHTML="hey";    
    
        
    }     

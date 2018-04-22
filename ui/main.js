@@ -64,12 +64,11 @@ xhttp.send();
    for(var i=0 ; i < names.length ; i++) {
         
         
-   if (names[i] ==='animal'){
+   if (names[i] ==="animal"){
     var hy =   document.getElementById("demo1");
    hy.innerHTML="hey";    
    
-       
-   }     
+    }     
     
        
    } 

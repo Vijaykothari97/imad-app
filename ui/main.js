@@ -52,17 +52,18 @@ xhttp.send();
    if(this.status===200 && this.readyState==4 )
    
    {
-    var name=this.responseText;
-    
+    var names=this.responseText;
+     names=JSON.parse(names);
+   
     var x=['lion'];
      
      if(name ==='animal'){
-         q=name.x;
+       var  q=name.x;
      }
     
    
  var p=   document.getElementById("demo1");
-   p.innerHTML=q;
+   p.innerHTML=this.q;
     
      }
 

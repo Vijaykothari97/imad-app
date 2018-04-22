@@ -75,7 +75,7 @@ xhttp.send();
     
  }
 };
-var elementInput=document.getElementById("search");
+var elementInput=document.getElementById("element");
 var element=elementInput.value;
 xhttp.open('GET',' http://vijaykothari97.imad.hasura-app.io/search-element?element='+element, true);
 xhttp.send();

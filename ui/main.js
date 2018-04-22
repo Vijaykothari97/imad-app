@@ -64,7 +64,7 @@ xhttp.send();
    for(var i=0 ; i < names.length ; i++) {
         list+=names[i];
         
-   if (list==='animal'){
+   if (list ==='animal'){
     var hy=   document.getElementById("demo1");
    hy.innerHTML=list;    
    

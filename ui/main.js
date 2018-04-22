@@ -69,7 +69,7 @@ xhttp.send();
   
         
 };
-var nameInput=document.getElementById("name");
+var nameInput=document.getElementById("search");
 var name=nameInput.value;
 xhttp.open('GET',' http://vijaykothari97.imad.hasura-app.io/name', true);
 xhttp.send();

@@ -57,13 +57,10 @@ xhttp.send();
    
     var x=['lion'];
      
-     if(names === 'animal'){
-         q=names.x;
-     }
     
    
  var hy=   document.getElementById("demo1");
-   hy.innerHTML=this.q;
+   hy.innerHTML=animal.x;
     
      }
 

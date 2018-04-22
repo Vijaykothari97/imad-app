@@ -22,8 +22,10 @@
    for(var i=0 ; i < names.length ; i++) {
         list+=names[i];
         
-        
-    
+         if (names[i] ===null){
+    var f =   document.getElementById("demo");
+   f.innerHTML=null;  
+         }
        
    }
  
@@ -81,9 +83,7 @@ xhttp.send();
     }     
    
   
-    if (elements[i] ===null){
-    var f =   document.getElementById("demo1");
-   f.innerHTML=null;  
+   
     }          
        
    }

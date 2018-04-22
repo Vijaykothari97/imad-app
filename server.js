@@ -23,12 +23,6 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
  
- var names = [];
-app.get('/search-element', function (req, res) {
-  var name=req.query.element;
-  names.push(element);
-  res.send(JSON.stringify(names));
-});
  
  
 var names = [];
@@ -38,7 +32,13 @@ app.get('/submit-name', function (req, res) {
    res.send(JSON.stringify(names));
 });
 
-
+var elements = [];
+app.get('/search-element', function (req, res) {
+  var name=req.query.element;
+  names.push(element);
+  res.send(JSON.stringify(elements));
+});
+ 
 
 var counter=0;
 app.get('/counter', function (req, res) {

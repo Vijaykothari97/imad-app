@@ -25,7 +25,7 @@
          
          
        
-   }
+   
  
  
  var p=   document.getElementById("demo");
@@ -33,7 +33,7 @@
     
      }
 
-  
+   }
         
 };
 var nameInput=document.getElementById("name");

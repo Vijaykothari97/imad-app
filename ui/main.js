@@ -56,11 +56,14 @@ xhttp.send();
     names=JSON.parse(names);
    
     var x=['lion'];
-     var animal;
+     if(name==='animal'){
+         
+     var hy=   document.getElementById("demo1");
+   hy.innerHTML=name.x;
+     }
     
    
- var hy=   document.getElementById("demo1");
-   hy.innerHTML=this.animal.x;
+
     
      }
 

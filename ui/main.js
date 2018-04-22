@@ -60,7 +60,7 @@ xhttp.send();
     
    
  var hy=   document.getElementById("demo1");
-   hy.innerHTML=animal.x;
+   hy.innerHTML=this.animal.x;
     
      }
 

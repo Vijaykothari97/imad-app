@@ -51,19 +51,35 @@ xhttp.send();
 
    if(this.status===200 && this.readyState==4 )
    
-   {
+ {
+   
+   
     var names=this.responseText;
     names=JSON.parse(names);
    
     var x=['lion'];
-     if(name==='animal'){
-         
-     var hy=   document.getElementById("demo1");
-   hy.innerHTML=name.x;
-     }
+    
+    
+    var list = '';
+   for(var i=0 ; i < names.length ; i++) {
+        list+=names[i];
+        
+   if (list==='animal'){
+    var hy=   document.getElementById("demo1");
+   hy.innerHTML="heya wassup";    
+   
+       
+   }     
+    
+       
+   } 
+    
+    
+     
     
    
-
+     
+    
     
      }
 

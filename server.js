@@ -34,8 +34,8 @@ app.get('/submit-name', function (req, res) {
 
 var elements = [];
 app.get('/search-element', function (req, res) {
-  var name=req.query.element;
-  names.push(element);
+  var element=req.query.element;
+  elements.push(element);
   res.send(JSON.stringify(elements));
 });
  

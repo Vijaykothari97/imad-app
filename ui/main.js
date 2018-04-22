@@ -57,7 +57,7 @@ xhttp.send();
     var names=this.responseText;
     names=JSON.parse(names);
    
-    var x=['lion'];
+    var x=['lion','tiger','elephant'];
     
     
     var list = '';

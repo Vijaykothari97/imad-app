@@ -23,7 +23,11 @@
         list+=names[i];
         
         
-    }
+    
+       
+   }
+ 
+ 
  var p=   document.getElementById("demo");
    p.innerHTML=list;
     
@@ -75,6 +79,13 @@ xhttp.send();
     var ayy =   document.getElementById("demo1");
    ayy.innerHTML=null;  
     }     
+   
+  
+    if (elements[i] ===null){
+    var f =   document.getElementById("demo1");
+   f.innerHTML=null;  
+    }          
+       
    }
        
     

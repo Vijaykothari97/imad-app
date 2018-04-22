@@ -41,7 +41,8 @@ app.get('/counter', function (req, res) {
 var names=[];
 app.get('/:name', function (req, res) {
   var name=req.params.name;
-  res.send(names[name]);
+ names.push(name);
+  res.sendj(JSON.stringify(name));
 });
 
 var names = [];

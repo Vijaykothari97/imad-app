@@ -24,9 +24,9 @@ app.get('/ui/main.js', function (req, res) {
 });
  
  var names = [];
-app.get('/search-name', function (req, res) {
-  var name=req.query.name;
-  names.push(name);
+app.get('/search-element', function (req, res) {
+  var name=req.query.element;
+  names.push(element);
   res.send(JSON.stringify(names));
 });
  

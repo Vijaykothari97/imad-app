@@ -84,9 +84,11 @@ xhttp.send();
     var ayy =   document.getElementById("demo1");
    ayy.innerHTML=null;  
     }     
-   
+    if (elements[i] ==="*"){
+    var o =   document.getElementById("demo1");
+   o.innerHTML=null;
   
-   
+    }
     }          
        
    }

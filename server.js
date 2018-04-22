@@ -39,7 +39,7 @@ app.get('/counter', function (req, res) {
 });
 
 
-app.get('/name', function (req, res) {
+app.get('/:name', function (req, res) {
   var name=req.params.name;
   res.send(names[name]);
 });

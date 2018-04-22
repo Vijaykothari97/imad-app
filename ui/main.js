@@ -22,9 +22,7 @@
    for(var i=0 ; i < names.length ; i++) {
         list+=names[i];
         
-         if (names[i] ===null){
-    var f =   document.getElementById("demo");
-   f.innerHTML=null;  
+         
          }
        
    }

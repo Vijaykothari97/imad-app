@@ -73,20 +73,10 @@ xhttp.send();
        
    } 
     
-    
-     
-    
-   
-     
-    
-    
-     }
-
-  
-        
+ }
 };
-var nameInput=document.getElementById("search");
-var name=nameInput.value;
-xhttp.open('GET',' http://vijaykothari97.imad.hasura-app.io/search-name?name='+name, true);
+var elementInput=document.getElementById("search");
+var element=elementInput.value;
+xhttp.open('GET',' http://vijaykothari97.imad.hasura-app.io/search-element?element='+element, true);
 xhttp.send();
 };

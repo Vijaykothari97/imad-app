@@ -52,18 +52,18 @@ xhttp.send();
    if(this.status===200 && this.readyState==4 )
    
    {
-    var name=this.responseText;
-    
+    var names=this.responseText;
+    names=JSON.parse(names);
    
     var x=['lion'];
-     
-     if(name === 'animal'){
-       var  q=name.x;
+     var q='';
+     if(names === 'animal'){
+         q=names.x;
      }
     
    
  var hy=   document.getElementById("demo1");
-   hy.innerHTML=console.log(this.q);
+   hy.innerHTML=q;
     
      }
 
@@ -72,6 +72,6 @@ xhttp.send();
 };
 var nameInput=document.getElementById("search");
 var name=nameInput.value;
-xhttp.open('GET',' http://vijaykothari97.imad.hasura-app.io/name', true);
+xhttp.open('GET',' http://vijaykothari97.imad.hasura-app.io/search-name?name='+name, true);
 xhttp.send();
 };

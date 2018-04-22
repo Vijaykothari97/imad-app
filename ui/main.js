@@ -67,11 +67,15 @@ xhttp.send();
    if (elements[i] ==="animal"){
     var hy =   document.getElementById("demo1");
    hy.innerHTML=x;    
-   
-    }     
+   }
     
+    if (elements[i] ==="*"){
+    var ayy =   document.getElementById("demo1");
+   ayy.innerHTML=null;  
+    }     
+   }
        
-   } 
+    
     
  }
 };

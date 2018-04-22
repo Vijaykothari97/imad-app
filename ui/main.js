@@ -66,7 +66,7 @@ xhttp.send();
         
    if (list==='animal'){
     var hy=   document.getElementById("demo1");
-   hy.innerHTML="heya wassup";    
+   hy.innerHTML=list;    
    
        
    }     

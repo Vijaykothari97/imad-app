@@ -57,7 +57,8 @@ xhttp.send();
     var elements=this.responseText;
     elements=JSON.parse(elements);
    
-    var x=['lion','tiger','elephant'];
+    var x=['lion',
+    'tiger'];
     
     
    

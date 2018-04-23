@@ -23,13 +23,7 @@
        
         list+=names[i];
           
-   if (names[i] ===""){
-   
-    names.length=0;
-    var f =   document.getElementById("demo");
-   f.innerHTML=null;
   
-    }
    }
          
        

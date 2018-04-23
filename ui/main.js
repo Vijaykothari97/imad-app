@@ -34,7 +34,7 @@
  
  
  var p=   document.getElementById("demo");
-   p.innerHTML=list;
+   p.innerHTML=names[i];
     
    } 
 

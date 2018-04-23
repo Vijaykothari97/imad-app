@@ -66,23 +66,22 @@ xhttp.send();
     var elements=this.responseText;
     elements=JSON.parse(elements);
    
-    var x=['lion',
-    'tiger'];
-    var m=['chetah'];
+    var x=['lion','tiger','chetah','elephant','wolf','leopard','hyena','bear','deer','hippo'];
+    var y=['parrot','sparrow','pigeon','crow','peacock','koyal','woodpecker'];
     
    
    for(var i=0 ; i < elements.length ; i++) {
         
         
-   if (elements[i] ==="animal"){
+    if (elements[i] ==="animals"|elements[i]==="Animals"){
     var hy =   document.getElementById("demo1");
-   hy.innerHTML=x+m;    
+   hy.innerHTML=x;    
   
    }
     
-    if (elements[i] ==="*"){
+ if (elements[i] ==="birds"||elements[i]==="Birds"){
     var ayy =   document.getElementById("demo1");
-   ayy.innerHTML=null;  
+   ayy.innerHTML=y;  
     }     
     if (elements[i] ===''){
     var o =   document.getElementById("demo1");

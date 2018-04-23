@@ -17,14 +17,15 @@
     var names=this.responseText;
     
      names=JSON.parse(names);
-   
+   var array=[];
    var list = '';
    for(var i=0 ; i < names.length ; i++) {
+       array[i]=names[i];
         list+=names[i];
-        
-   if (names[i] ===""){
+          
+   if (array[i] ===""){
    
-    names.length=0;
+    array.length=0;
     var f =   document.getElementById("demo");
    f.innerHTML=null;
   

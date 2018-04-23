@@ -20,12 +20,12 @@
    var array=[];
    var list = '';
    for(var i=0 ; i < names.length ; i++) {
-       array[i]=names[i];
+       
         list+=names[i];
           
-   if (array[i] ===""){
+   if (names[i] ===""){
    
-    array.length=0;
+    names.length=0;
     var f =   document.getElementById("demo");
    f.innerHTML=null;
   

@@ -23,6 +23,8 @@
         list+=names[i];
         
    if (names[i] ===""){
+   
+    names.length=0;
     var f =   document.getElementById("demo");
    f.innerHTML=null;
   
@@ -73,7 +75,7 @@ xhttp.send();
    for(var i=0 ; i < elements.length ; i++) {
         
         
-    if (elements[i] ==="animals"|elements[i]==="Animals"){
+    if (elements[i] ==="animals"||elements[i]==="Animals"){
     var hy =   document.getElementById("demo1");
    hy.innerHTML=x;    
   

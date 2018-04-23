@@ -25,18 +25,11 @@
           
   
    }
-         
-       
-   
- 
- 
- var p=   document.getElementById("demo");
+          var p=   document.getElementById("demo");
    p.innerHTML=list;
     
    } 
 
-   
-        
 };
 var nameInput=document.getElementById("name");
 var name=nameInput.value;

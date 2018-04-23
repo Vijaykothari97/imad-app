@@ -55,12 +55,7 @@ app.get('/counter', function (req, res) {
 
 
  
- var names=[];
-app.get('/:name', function (req, res) {
-  var name=req.params.name;
- names.push(name);
-  res.send(JSON.stringify(name));
-}); 
+ 
  
 app.get('/article', function (req, res) {
    res.send(createTemplate(article));

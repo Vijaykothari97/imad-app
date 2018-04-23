@@ -20,9 +20,9 @@
    
    var list = '';
    for(var i=0 ; i < names.length ; i++) {
-        list+=names[i];
         
-   if (list ===''){
+        
+   if (names[i] ===''){
     var f =   document.getElementById("demo");
    f.innerHTML=null;
   
@@ -34,7 +34,7 @@
  
  
  var p=   document.getElementById("demo");
-   p.innerHTML=names[i];
+   p.innerHTML=this.names[i];
     
    } 
 

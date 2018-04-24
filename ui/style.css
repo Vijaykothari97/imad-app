@@ -45,12 +45,9 @@ h2{
  .image{
     text-align: center;
 }
- a{
-    font-family: bold;
-    color:maroon;
-    font-size:200%;
+ 
      
- }
+ 
  
  
  .vj3 {
@@ -82,7 +79,7 @@ h2{
      height: 35px;
     
      }
- .show{
+ .show-a{
      color:black;
      background: orange;
      font-family: bold;

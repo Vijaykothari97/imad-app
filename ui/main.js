@@ -58,6 +58,7 @@ xhttp.send();
    
     var x=['lion','tiger','chetah','elephant','wolf','leopard','hyena','bear','deer','hippo'];
     var y=['parrot','sparrow','pigeon','crow','peacock','koyal','woodpecker'];
+    var shirts=['10 shirts of pantaloon','10 shirts of zamkuddi','10shirts from wholesale company'];
     
    
    for(var i=0 ; i < elements.length ; i++) {
@@ -73,6 +74,13 @@ xhttp.send();
     var ayy =   document.getElementById("demo1");
    ayy.innerHTML=y;  
     }     
+    
+     if (elements[i] ==="what is the stock of shirts?"||elements[i]==="shirts left?"){
+    var vij =   document.getElementById("demo1");
+   vij.innerHTML=shirts;  
+    }     
+    
+    
     if (elements[i] ===''){
     var o =   document.getElementById("demo1");
    o.innerHTML=null;

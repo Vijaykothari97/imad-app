@@ -65,7 +65,9 @@
             <button type="text" onclick ="myfunction8()" >CLEAR TEXT</button>
      <br/>
      <p id= "feedback">  </p>
-    
+    <br/>
+     
+     <button class ="show"  type=text onclick="myfunction3()" ><strong>sort numbers</strong></button>
   
 
       <script>
@@ -176,9 +178,6 @@
   
     
      }
-
-  
-        
 }
  var nameInput=document.getElementById("name");
  var name=nameInput.value;
@@ -189,11 +188,15 @@ xhttp.send();
   function myfunction8(){
         document.getElementById("feedback").innerHTML = null      
   
-     
-          
-      }
+    }
       
- 
+  function myfunction9(){
+          var v1=[]
+          for(var i=o;i<5;i++){
+              v1[i]=parseInt(prompt(enter 5 numbers));
+              
+          }
+      
   }   
         </script>
     </body>

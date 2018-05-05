@@ -61,25 +61,7 @@ xhttp.send();
     var shirts=['10 shirts of pantaloon','10 shirts of zamkuddi','10shirts from wholesale company'];
     var samosa;
    
-var button=document.getElementById("s2");
-button.onclick=function(){
-var s3 = parseInt(prompt("Enter the amount"))  ; 
-var samosa= s3;
-var c = document.getElementById("s4");
-c.innerHTML="the price of samosa is "+samosa+"<br/>";
-  
-  var button=document.getElementById("v2");
-  button.onclick=function(){
-   var vadaPav = parseInt(prompt("Enter the amount"));
-   var f = document.getElementById("v4");
-   f.innerHTML="the price of vadapav is "+vadaPav+"<br/>";
-   var total=samosa+ vadaPav;
-   var c = document.getElementById("t2");
-   c.innerHTML="The total bill amount is "+total;
-    };
-    
-};  
-  
+
   
    for(var i=0 ; i < elements.length ; i++) {
         
@@ -118,13 +100,32 @@ c.innerHTML="the price of samosa is "+samosa+"<br/>";
     
  
 };
+
 var elementInput=document.getElementById("element");
 var element=elementInput.value;
 xhttp.open('GET',' http://vijaykothari97.imad.hasura-app.io/search-element?element='+element, true);
 xhttp.send();
 };
 
-
+var button=document.getElementById("s2");
+button.onclick=function(){
+var s3 = parseInt(prompt("Enter the amount"))  ; 
+var samosa= s3;
+var c = document.getElementById("s4");
+c.innerHTML="the price of samosa is "+samosa+"<br/>";
+  
+  var button=document.getElementById("v2");
+  button.onclick=function(){
+   var vadaPav = parseInt(prompt("Enter the amount"));
+   var f = document.getElementById("v4");
+   f.innerHTML="the price of vadapav is "+vadaPav+"<br/>";
+   var total=samosa+ vadaPav;
+   var c = document.getElementById("t2");
+   c.innerHTML="The total bill amount is "+total;
+    };
+    
+};  
+  
 
 
 

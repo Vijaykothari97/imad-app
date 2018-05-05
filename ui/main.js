@@ -59,7 +59,7 @@ xhttp.send();
     var x=['lion','tiger','chetah','elephant','wolf','leopard','hyena','bear','deer','hippo'];
     var y=['parrot','sparrow','pigeon','crow','peacock','koyal','woodpecker'];
     var shirts=['10 shirts of pantaloon','10 shirts of zamkuddi','10shirts from wholesale company'];
-    
+    var samosa;
    
 var button=document.getElementById("s2");
 button.onclick=function(){

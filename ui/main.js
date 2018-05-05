@@ -110,7 +110,7 @@ button.onclick=function(){
 var vadaPav = parseInt(prompt("Enter the amount"));
 var total=samosa+ vadaPav;
 var c = document.getElementById("t2");
-c.innerHTML=total;
+c.innerHTML="The total bill amount is "+total;
     
 };
     

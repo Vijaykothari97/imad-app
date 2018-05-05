@@ -107,7 +107,7 @@ button.onclick=function(){
 var samosa= s3;
 var button=document.getElementById("v2");
 button.onclick=function(){
-var total=this.samosa;
+var total=samosa+ 20;
 var c = document.getElementById("t2");
 c.innerHTML=total;
     

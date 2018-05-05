@@ -105,12 +105,12 @@ var button=document.getElementById("s2");
 button.onclick=function(){
  var s3 = parseInt(prompt("Enter the amount"))  ; 
 var samosa= s3;
-var c = document.getElementById("s2");
+var c = document.getElementById("s4");
 c.innerHTML="the price of samosa is "+samosa+"<br/>";
 var button=document.getElementById("v2");
 button.onclick=function(){
 var vadaPav = parseInt(prompt("Enter the amount"));
-var f = document.getElementById("v2");
+var f = document.getElementById("v4");
 f.innerHTML="the price of vadapav is "+vadaPav+"<br/>";
 var total=samosa+ vadaPav;
 

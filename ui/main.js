@@ -105,8 +105,6 @@ var button=document.getElementById("s2");
 button.onclick=function(){
  var s3 = parseInt(prompt("Enter the amount"))  ; 
 var samosa= s3;
-};
-
 var button=document.getElementById("v2");
 button.onclick=function(){
 var total=this.samosa;
@@ -114,4 +112,8 @@ var c = document.getElementById("t2");
 c.innerHTML=total;
     
 };
+    
+};
+
+
 

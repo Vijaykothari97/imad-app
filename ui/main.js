@@ -112,7 +112,7 @@ button.onclick=function(){
  var v3 = parseInt(prompt("Enter the amount"))  ; 
 var vadaPav= v3;
 var total=this.samosa + vadaPav;
- var c=document.getElementById("v2");
+ var c=document.getElementById("s2");
  c.innerHTML=total;
     
 };

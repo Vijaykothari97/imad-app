@@ -105,16 +105,16 @@ var button=document.getElementById("s2");
 button.onclick=function(){
  var s3 = parseInt(prompt("Enter the amount"))  ; 
 var samosa= s3;
-var f = document.getElementById("t2");
-f.innerHTML="the price of samosa is "+samosa+"<br/>";
+var c = document.getElementById("t2");
+c.innerHTML="the price of samosa is "+samosa+"<br/>";
 var button=document.getElementById("v2");
 button.onclick=function(){
 var vadaPav = parseInt(prompt("Enter the amount"));
-var g = document.getElementById("t2");
-g.innerHTML="the price of vadapav is "+vadaPav+"<br/>";
+var c = document.getElementById("t2");
+c.innerHTML="the price of vadapav is "+vadaPav+"<br/>";
 var total=samosa+ vadaPav;
 
-var c = document.getElementById("t2");
+ c = document.getElementById("t2");
 c.innerHTML="The total bill amount is "+total;
     
 };

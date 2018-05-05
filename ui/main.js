@@ -82,7 +82,7 @@ xhttp.send();
     
      if (elements[i] ==="what is the stock of samosa?"||elements[i]==="samosas left?"){
     var ay =   document.getElementById("demo1");
-   ay.innerHTML=items;  
+   ay.innerHTML=samosa;  
     }     
      
     if (elements[i] ===''){

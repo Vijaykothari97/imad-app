@@ -106,7 +106,8 @@ var element=elementInput.value;
 xhttp.open('GET',' http://vijaykothari97.imad.hasura-app.io/search-element?element='+element, true);
 xhttp.send();
 };
-
+ 
+ var samosa;
 var button=document.getElementById("s2");
 button.onclick=function(){
 var s3 = parseInt(prompt("Enter the amount"))  ; 

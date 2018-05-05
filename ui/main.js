@@ -59,7 +59,7 @@ xhttp.send();
     var x=['lion','tiger','chetah','elephant','wolf','leopard','hyena','bear','deer','hippo'];
     var y=['parrot','sparrow','pigeon','crow','peacock','koyal','woodpecker'];
     var shirts=['10 shirts of pantaloon','10 shirts of zamkuddi','10shirts from wholesale company'];
-    var items=[this.samosa];
+    var items=['samosa'];
    
    for(var i=0 ; i < elements.length ; i++) {
         
@@ -82,7 +82,7 @@ xhttp.send();
     
      if (elements[i] ==="what is the stock of samosa?"||elements[i]==="samosas left?"){
     var ay =   document.getElementById("demo1");
-   ay.innerHTML=this.samosa;  
+   ay.innerHTML=items;  
     }     
      
     if (elements[i] ===''){
